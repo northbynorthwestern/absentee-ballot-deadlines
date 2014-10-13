@@ -1,0 +1,79 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 650px;
+	font-family: Helvetica, sans-serif;
+}
+
+#map {
+	width: 100%;
+	height: 350px;
+}
+
+.state {
+	stroke: none;
+	fill: rgba(80, 31, 132, 0.1)
+}
+
+.state:hover {
+  fill: rgba(80, 31, 132, 0.5);
+}
+
+.state-border {
+	fill: none;
+	stroke: rgba(80, 31, 132, 0.6);
+	stroke-width: 0.75;
+}
+
+table tr:nth-of-type(2n) {
+	background-color: rgba(80, 31, 132, 0.2);
+}
+
+table tr td {
+	border: none;
+	border-spacing: 0;
+	padding: 0.25em 0.75em;
+}
+
+table {
+	margin-top: 3em;
+	border-spacing: 0;
+	font-weight: 300;
+	font-size: 0.85em;
+}
+
+table tr {
+	margin-top: 0.5em;
+}
+
+table tr td:nth-of-type(1) {
+	font-weight: 500;
+}
+
+table a {
+	text-decoration: none;
+	color: black;
+}
+
+tr.selected {
+	background-color: rgba(236, 56, 14, 0.5) !important;
+}
+
+p.meta {
+	font-size: 0.75em;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 1em;
+	font-weight: 300;
+}
+
+p.instructions {
+	font-weight: 300;
+}
+
+p a {
+	color: #501F84;
+}
