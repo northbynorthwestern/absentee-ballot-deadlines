@@ -11,11 +11,12 @@
     <script type="text/javascript" src="lib/pym.js"></script>
     <script src="lib/smooth-scroll.js"></script>
     <script>
-        var pymParent = new pym.Parent('post', 'index.html', {});
+        var pymParent = new pym.Parent('post', 'child.html', {});
 
         smoothScroll.init();
 
         onClick = function(id) {
+            console.log(id);
             smoothScroll.animateScroll(null, id);
         };
 
