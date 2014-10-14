@@ -2,7 +2,7 @@ state,application_deadline,ballot_deadline,info_link
 Alabama,"Received 5 days before the election","Postmarked by the day before the election (by mail). Received by 5:00 p.m. on the day before the election (in person).",/alabama
 Alaska,Received 10 days before the election,Postmarked on election day,/alaska
 Arizona,"
-Received by 5pm on the second Friday before Election Day
+Received by 5p.m. on the second Friday before Election Day
 ","
 Received by 7:00 p.m. on election day
 ",/arizona
@@ -66,11 +66,11 @@ Received by the close of polls on election day
  
 ",/hawaii
 Idaho,"
-Received by 5pm on the 6th day prior to the election
+Received by 5p.m. on the 6th day prior to the election
  
 ","
-Received by 5pm the Friday before an election (in person).
-Received by 8pm on election day (by mail).
+Received by 5p.m. the Friday before an election (in person).
+Received by 8p.m. on election day (by mail).
 ",/idaho
 Illinois,"
 Received no later than 5 days before the election (by mail).
@@ -79,7 +79,7 @@ Received by the day before the election (in person).
 Postmarked the day before the election.
 ",/illinois
 Indiana,"
-Received by 11:59pm on the 8th day before the election
+Received by 11:59p.m. on the 8th day before the election
 ","
 Received by noon on election day
 ",/indiana
@@ -98,11 +98,8 @@ Received by the Tuesday before the Election
 ","
 Received by 6:00 p.m. on election day
 ",/kentucky
-Louisiana,"
-Received no later than 4:30pm on the 4th day before the election (most voters).
-Received by 8pm on the day before the election (if hospitalized).
-","
-Received no later than 4:30pm on the day before the election (most voters).  
+Louisiana, "Received no later than 4:30 p.m. on the 4th day before the election (most voters). Received by 8 p.m. on the day before the election (if hospitalized).","
+Received no later than 4:30 p.m. on the day before the election (most voters).  
 Received by 8:00 p.m. on election day (hospitalized voters).
 ",/louisiana
 Maine,"
@@ -111,15 +108,8 @@ The third business day prior to the election
 Received by 8:00 p.m. on election day
 ",/maine
 Maryland,"
-Received by the Tuesday before Election Day (if you want to receive your ballot by mail or fax).
-Received by the Friday before Election day (if you want to download your ballot from the state website).
-","
-Received by 8:00 PM on election day (in person)
- 
-Postmarked by election day and received by 10:00 a.m. on the 2nd Friday after the election (by mail)
- 
- 
-",/maryland
+Received by the Tuesday before Election Day (if you want to receive your ballot by mail or fax). Received by the Friday before Election day (if you want to download your ballot from the state website).","
+Received by 8:00 p.m. on election day (in person). Postmarked by election day and received by 10:00 a.m. on the 2nd Friday after the election (by mail)",/maryland
 Massachusetts,"
 Received by noon on the day before the election - but highly recommended that you apply at least one month before the election.
 ","
@@ -143,8 +133,8 @@ Received by 5:00 p.m. on the day before the election
 Missouri,"
 Received by 5:00 p.m. on the Wednesday before the election
 ","
-Received by 7:00 PM on election day (by mail).
-Received by 5:00 PM on the day prior to the election (in person)
+Received by 7:00 p.m. on election day (by mail).
+Received by 5:00 p.m. on the day prior to the election (in person)
 ",/missouri
 Montana,"
 Received by noon on the day before the election
@@ -171,7 +161,7 @@ Received by 5:00 p.m. on the day before the election (in person)
 ",/new_hampshire
 New Jersey,"
 Received seven days before the election if requested by mail.
-Received by 3pm on the day before the election if requested in person
+Received by 3p.m. on the day before the election if requested in person
 ","
 Received by 8:00 p.m. on election day
  
@@ -259,13 +249,7 @@ Received by 5:00 p.m. on the day before the election
 ","
 Received by the close of polls on election day, either in person or by mail
 ",/vermont
-Virginia,"
-Received by 5:00 p.m. the Tuesday before the election if requested by mail
-Received 3 days before the election if applying and casting absentee ballot  in person
-","
-Received by 7:00 p.m. on election day
- 
-",/virginia
+Virginia,"Received by 5:00 p.m. the Tuesday before the election if requested by mail. Received 3 days before the election if applying and casting absentee ballot in person","Received by 7:00 p.m. on election day",/virginia
 Washington,No specific deadline. We recommend requesting your ballot at least one month before the election,"
 Postmarked by election day
  

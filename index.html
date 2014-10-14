@@ -13,11 +13,12 @@
     <script>
         var pymParent = new pym.Parent('post', 'child.html', {});
 
-        smoothScroll.init();
+        smoothScroll.init({
+            updateURL: false
+        });
 
-        onClick = function(id) {
-            console.log(id);
-            smoothScroll.animateScroll(null, id);
+        onClick = function(offset) {
+            smoothScroll.animateScroll(null, '#post', {offset: -(offset) + 25,});
         };
 
         pymParent.onMessage('child-click', onClick);

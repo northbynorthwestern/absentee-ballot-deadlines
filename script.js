@@ -68,9 +68,9 @@ d3.json('america.simplify.topo.json', function(america) {
 				$(rows[i]).removeClass('selected');
 			}
 
-			pymChild.sendMessage('child-click', id);
+			offsetTop = $row.offset().top;
+			pymChild.sendMessage('child-click', offsetTop);
 
-			smoothScroll.animateScroll(null, id);
 			$row.addClass('selected');
 
 		}
